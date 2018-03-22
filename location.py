@@ -1,6 +1,7 @@
 import SimpleCV
 from SimpleCV import Camera
 cam=camera(1)
+img = cam.getImage()
 def position():
 	crop1=img.crop(60,140,40,200)
 	crop2=img.crop(140,140,40,200)
